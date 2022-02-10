@@ -1,0 +1,115 @@
+body {
+    background-color: beige;
+}
+
+input {
+    display: inline-block;
+    width: 10%;
+}
+
+h1 {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+table {
+    position: relative;
+    
+}
+
+.boxed {
+    display: block;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    width: 60%;
+    left: 20%;
+}
+
+.center {
+    display: block;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width: auto;
+}
+
+.inputs {
+    display: flex;
+    position: relative;
+    width: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-evenly;
+}
+
+.inputs input {
+    width: 100px;
+    height: 20px;
+}
+
+.center button {
+    background-color: white;
+    margin: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center input {
+    margin: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex {
+    display: flex;
+    position: relative;
+    width: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-evenly;
+}
+
+table {
+    display: block;
+    position: relative;
+    left: 40%;
+    /* transform: translate(-50%); */
+}
+
+.centered {
+    text-align: center;
+}
+
+tr {
+    width: 100%;
+}
+
+/* .space {
+    width: 500px;
+} */
+
+.right {
+    float: right;
+}
+
+td {
+    width: auto;
+}
+
+.smallboxed {
+    display: block;
+    border: 3px solid black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    width: 40%;
+    left: 30%;
+}
